@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lucida Sans Unicode;
+}
+
+img {
+  width: 200px;
+  height: 60px;
+}
+
+.wrapper {
+  width: 568px;
+  height: 160px;
+  display: flex;
+  background-color: #8af58a52;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.leftSide {
+  background: red;
+  width: 200px;
+}
+
+.rightSide {
+  background: blue;
+  width: 368px;
+}
+
+.rightSide__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.stops {
+  content: '';
+  position: absolute;
+  /* top: 10px;
+  left: 0;
+  width: 50px;
+  height: 1px; */
+  /* background: grey; */
+}
+
+.ticket {
+}
+
+.ticket_right {
+  text-align: right;
+}
+
+.ticket__time {
+  font-size: 2em;
+}
+
+.buttonBuy {
+  border: 0;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(255, 94, 0);
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: Lucida Sans Unicode;
+}
+
+.time {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.stops {
+  color: rgba(128, 128, 128, 0.699);
+}
